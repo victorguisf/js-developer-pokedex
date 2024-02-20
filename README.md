@@ -12,3 +12,6 @@ Este foi um desafio proposto pela DIO.me, onde usamos uma API de dados de pokemo
 
 - [@victorguisf](https://github.com/victorguisf)
 
+## Acesse o site clicando no link abaixo!
+
+- [POKEDEX](https://victorguisf.github.io/js-developer-pokedex/)
