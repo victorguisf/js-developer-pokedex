@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+}
+
+.overlay.active {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px; /* Tamanho fixo do overlay */
+    max-width: 100%;
+    height: 550px;
+    align-items: center;
+    align-self: center;
+    background-color: #FFF; /* Cor de fundo padrão */
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay-content img {
+    width: auto;
+    height: 218px;
+    margin-bottom: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.overlay img {
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.overlay.normal .overlay-content {
+    background-color: #a6a877; /* Cor de fundo para o tipo Normal */
+}
+
+.overlay.grass .overlay-content {
+    background-color: #77c850; /* Cor de fundo para o tipo Grass */
+}
+
+.overlay.fire .overlay-content {
+    background-color: #ee7f30; /* Cor de fundo para o tipo Fire */
+}
+
+.overlay.water .overlay-content {
+    background-color: #678fee; /* Cor de fundo para o tipo Water */
+}
+
+.overlay.electric .overlay-content {
+    background-color: #f7cf2e; /* Cor de fundo para o tipo Electric */
+}
+
+.overlay.ice .overlay-content {
+    background-color: #98d5d7; /* Cor de fundo para o tipo Ice */
+}
+
+.overlay.ground .overlay-content {
+    background-color: #dfbf69; /* Cor de fundo para o tipo Ground */
+}
+
+.overlay.flying .overlay-content {
+    background-color: #a98ff0; /* Cor de fundo para o tipo Flying */
+}
+
+.overlay.poison .overlay-content {
+    background-color: #a040a0; /* Cor de fundo para o tipo Poison */
+}
+
+.overlay.fighting .overlay-content {
+    background-color: #bf3029; /* Cor de fundo para o tipo Fighting */
+}
+
+.overlay.psychic .overlay-content {
+    background-color: #f65687; /* Cor de fundo para o tipo Psychic */
+}
+
+.overlay.dark .overlay-content {
+    background-color: #725847; /* Cor de fundo para o tipo Dark */
+}
+
+.overlay.rock .overlay-content {
+    background-color: #b8a137; /* Cor de fundo para o tipo Rock */
+}
+
+.overlay.bug .overlay-content {
+    background-color: #a8b720; /* Cor de fundo para o tipo Bug */
+}
+
+.overlay.ghost .overlay-content {
+    background-color: #6e5896; /* Cor de fundo para o tipo Ghost */
+}
+
+.overlay.steel .overlay-content {
+    background-color: #b9b7cf; /* Cor de fundo para o tipo Steel */
+}
+
+.overlay.dragon .overlay-content {
+    background-color: #6f38f6; /* Cor de fundo para o tipo Dragon */
+}
+
+.overlay.fairy .overlay-content {
+    background-color: #f9aec7; /* Cor de fundo para o tipo Fairy */
+}
